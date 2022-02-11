@@ -5,10 +5,7 @@ defmodule Yamlix do
 
   @doc """
   Converts term to yaml format.
-  This function is useful for sending boolean values to the server.
   ## Examples
-      # Assuming form contains a User schema
-      checkbox(form, :famous)
       dump(term, wrap: false, multiline_fields: ["examples"])
       #=> "\nexamples: |\n- some string\nregex: | text\n"
   ## Options
